@@ -1,9 +1,17 @@
 .cover {
-  /*background-image: url(../../images/__background.jpg);*/
+  background-image: url(../../images/__background.jpg);
   max-width: 1184px;
-  /*background-size: cover;*/
+  background-size: cover;
+  background-position: center;
   /*width: 100%;*/
   position: relative;
   border: hotpink 1px solid;
   margin: 0 auto 92px;
+  display: flex;
+  align-items: stretch;
+}
+
+.cover {
+  opacity: 0.3;
+  cursor: pointer;
 }
