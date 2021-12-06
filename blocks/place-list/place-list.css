@@ -1,0 +1,7 @@
+.place-list {
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+  max-width: 984px;
+  border: white 1px solid;
+}

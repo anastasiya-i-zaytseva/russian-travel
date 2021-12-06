@@ -1,0 +1,9 @@
+.cover {
+  /*background-image: url(../../images/__background.jpg);*/
+  max-width: 1184px;
+  /*background-size: cover;*/
+  /*width: 100%;*/
+  position: relative;
+  border: hotpink 1px solid;
+  margin: 0 auto 92px;
+}

@@ -1,0 +1,7 @@
+.content {
+  /*display: grid;*/
+  /*grid-template-rows: repeat(5, auto);*/
+  /*gap: 92px;*/
+  /*padding-bottom: 92px;*/
+  border: maroon 1px solid;
+}

@@ -1,0 +1,10 @@
+.place__link {
+  margin: 0 0 48px 0;
+  text-decoration-line: underline;
+  color: inherit;
+}
+
+.place__link:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
