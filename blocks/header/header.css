@@ -1,5 +1,4 @@
 .header {
-  border: gold 1px solid;
   display: flex;
   flex-direction: row;
   align-items: end;
@@ -8,10 +7,22 @@
   max-width: 1184px;
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width: 1024px) {
+  .header {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    max-width: 720px;
+    margin: 28px 24px 48px 24px;
+  }
+}
+
+@media screen and (max-width:470px) {
   .header {
     min-width: 288px;
     margin: 16px;
   }
-
 }

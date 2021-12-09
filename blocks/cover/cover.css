@@ -3,15 +3,33 @@
   max-width: 1184px;
   background-size: cover;
   background-position: center;
-  /*width: 100%;*/
   position: relative;
-  border: hotpink 1px solid;
   margin: 0 auto 92px;
   display: flex;
   align-items: stretch;
 }
 
-.cover {
-  opacity: 0.3;
-  cursor: pointer;
+.cover:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  padding-top: 62.6%;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    margin: 0 auto 88px;
+  }
+}
+
+@media screen and (max-width:470px) {
+  .cover {
+    margin: 0 auto 64px;
+  }
 }

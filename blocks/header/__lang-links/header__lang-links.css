@@ -1,7 +1,4 @@
 .header__lang-links {
-  text-decoration-line: underline;
-  list-style-type: none;
   margin: 0;
-  border: red 1px solid;
   gap: 18px;
 }

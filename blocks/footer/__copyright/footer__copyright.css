@@ -1,24 +1,25 @@
-.place__ulr-heading {
+.footer__copyright {
   margin: 0;
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
-  line-height: 170%;
-  letter-spacing: 2px;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
 }
 
 @media screen and (max-width: 1024px) {
-  .place__ulr-heading {
+  .footer__copyright {
   }
 }
 
 @media screen and (max-width: 768px) {
-  .place__ulr-heading {
-    line-height: 12px;
+  .footer__copyright {
   }
 }
 
 @media screen and (max-width:470px) {
-  .place__ulr-heading {
+  .footer__copyright {
+    font-size: 14px;
+    line-height: 14px;
   }
 }
