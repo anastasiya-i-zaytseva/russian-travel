@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
-  line-height: 36px;
+  line-height: 120%;
   text-align: center;
   max-width: 640px;
 }
@@ -25,6 +25,6 @@
     margin: 0 auto 40px;
     max-width: 288px;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 125%;
   }
 }

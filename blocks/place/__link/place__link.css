@@ -1,4 +1,8 @@
 .place__link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 122%;
   margin: 0;
   text-decoration-line: underline;
   color: inherit;
