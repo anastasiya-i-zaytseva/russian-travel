@@ -14,11 +14,14 @@
 
 @media screen and (max-width: 768px) {
   .place__ulr-heading {
+    margin-bottom: 12px;
     line-height: 12px;
   }
 }
 
 @media screen and (max-width:470px) {
   .place__ulr-heading {
+    margin: 0 16px 12px;
+    line-height: 100%;
   }
 }
