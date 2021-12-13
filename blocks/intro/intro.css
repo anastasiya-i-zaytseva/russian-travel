@@ -1,7 +1,11 @@
 .intro {
-  margin: 0 442px 92px auto;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 92px;
   max-width: 690px;
+  align-items: start;
 }
+
 
 @media screen and (max-width: 1024px) {
   .intro {
