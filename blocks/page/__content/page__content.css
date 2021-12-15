@@ -7,17 +7,11 @@
 @media (max-width: 1023px) {
   .page__content {
     padding: 0 24px;
-
   }
 }
 
 @media screen and (max-width: 767px) {
   .page__content {
     padding: 0 16px;
-  }
-}
-
-@media screen and (max-width:470px) {
-  .page__content {
   }
 }
