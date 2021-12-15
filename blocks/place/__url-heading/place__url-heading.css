@@ -1,22 +1,27 @@
-.place__url-heading {
+.place__ulr-heading {
   margin: 0;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 170%;
   letter-spacing: 2px;
-  color: #AAAAAA;
-  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__ulr-heading {
+  }
 }
 
 @media screen and (max-width: 768px) {
   .place__ulr-heading {
-    line-height: 100%;
+    margin-bottom: 12px;
+    line-height: 12px;
   }
 }
 
 @media screen and (max-width:470px) {
-  .place__url-heading  {
-    margin-bottom: 12px;
+  .place__ulr-heading {
+    margin: 0 16px 12px;
+    line-height: 100%;
   }
 }

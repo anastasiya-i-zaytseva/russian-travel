@@ -1,6 +1,12 @@
 .photo {
-  margin: 0 48px 92px;
+  margin: 0 auto 92px;
   max-width: 1184px;
+}
+
+@media screen and (max-width: 1024px) {
+  .photo {
+    margin: 0 48px 92px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -11,6 +17,6 @@
 
 @media screen and (max-width:320px) {
   .photo {
-    margin:0 16px 64px;
+    margin: 0 16px 64px;
   }
 }
