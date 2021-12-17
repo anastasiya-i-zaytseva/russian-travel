@@ -19,7 +19,7 @@
   }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:470px) {
   .photo-grid {
     gap: 12px;
   }

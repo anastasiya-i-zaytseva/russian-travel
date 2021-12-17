@@ -1,4 +1,25 @@
 .place__images {
   display: block;
   width: 100%;
+  max-width: 460px;
+}
+
+@media screen and (max-width: 1026px) {
+  .place__images {
+    max-width: 440px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__images {
+    max-width: 340px;
+  }
+}
+
+@media screen and (max-width:470px) {
+  .place__images {
+    max-width: 320px;
+    margin: 0;
+    object-fit: cover;
+  }
 }
