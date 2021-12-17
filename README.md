@@ -9,7 +9,7 @@
 В проекте использовался Flex (в Header и Footer), Gred в (Photo). 
 Так же использовались медиа запросы чтобы "кравиво" изменялось при перемене пикселей. 
 
-https://anastasiya-i-zaytseva.github.io/russian-travel/index.html#
+https://anastasiya-i-zaytseva.github.io/russian-travel/index.html
 
 
 
