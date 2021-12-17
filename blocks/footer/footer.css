@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row;
 }
 
 @media screen and (max-width:470px) {
