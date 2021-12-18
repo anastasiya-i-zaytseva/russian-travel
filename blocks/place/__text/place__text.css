@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (max-width:470px) {
+@media screen and (max-width:570px) {
   .place__text {
     max-width: 288px;
     margin: 0 16px 0;

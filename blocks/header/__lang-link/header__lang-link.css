@@ -13,7 +13,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width:470px) {
+@media screen and (max-width:570px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 111%;
